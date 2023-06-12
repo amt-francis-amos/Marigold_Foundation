@@ -77,8 +77,8 @@ header{
 }
 
 
-.navbar img{
-    width:150px;
+.navbar a img{
+    width:70px;
 }
 
 
@@ -251,7 +251,7 @@ footer{
 }
 
 .footer-info img{
-    width:140px;
+    width:100px;
 }
 
 
@@ -330,7 +330,7 @@ nav ul{
    .navbar  .fa-bars{
         position:absolute;
         right:10px;
-        top:10px;
+        top:5px;
         color:var(--white-color);
         font-size:30px;
     }
@@ -374,15 +374,15 @@ nav li a:hover{
     display:block;
     color:var(--black-color);
     margin:20px;
-    font-size:30px;
+    font-size:35px;
     cursor:pointer;
 }
 
 
-.navbar img{
-    width:80px;
+.navbar a img{
+    width:59px;
     position:absolute;
-    top:5px;
+    top:15px;
     left:30px;
 }
 
