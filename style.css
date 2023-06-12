@@ -556,4 +556,15 @@ nav li a:hover{
 }
 
 
+
+.sub-info h1{
+    font-size:25px;
+}
+
+
+.sub-info h1::after, .sub-info h1::before{
+    width:12px;
+}
+
+
 }
