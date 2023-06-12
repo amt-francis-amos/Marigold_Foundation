@@ -79,6 +79,8 @@ header{
 
 .navbar a img{
     width:70px;
+    height:70px;
+    border-radius:50%;
 }
 
 
@@ -251,7 +253,9 @@ footer{
 }
 
 .footer-info img{
-    width:100px;
+    width:90px;
+    height:90px;
+    border-radius:50%;
 }
 
 
