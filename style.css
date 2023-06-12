@@ -213,6 +213,11 @@ nav li a{
     font-weight:bold;
 }
 
+nav li a:hover{
+    color:var(--white-color);
+   text-decoration:underline;
+}
+
 
 
   .navbar .fa{
@@ -225,10 +230,15 @@ nav li a{
 
 
 .navbar img{
-    width:70px;
+    width:80px;
     position:absolute;
-    top:10px;
+    top:5px;
     left:30px;
+}
+
+
+.showcase{
+    height:75vh;
 }
 
 
@@ -237,8 +247,13 @@ nav li a{
 }
 
 .welcome-section h1{
-    font-size:30px;
+    font-size:27px;
     line-height:36px;
+}
+
+
+.welcome-section p{
+    font-size:15px;
 }
 
 
