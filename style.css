@@ -152,7 +152,7 @@ nav li a:hover{
 /* -------VISION & MISSION STYLING ------ */
 
 .vision{
-    padding:100px 0;
+    padding:50px 0;
 }
 
 
@@ -388,7 +388,7 @@ nav li a:hover{
 
 
 .showcase{
-    height:64vh;
+    height:70vh;
 }
 
 
@@ -408,6 +408,11 @@ nav li a:hover{
     font-size:15px;
 }
 
+
+
+.vision-info p{
+    width:250px;
+}
 
 
 }
