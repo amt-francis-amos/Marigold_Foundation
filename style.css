@@ -145,13 +145,67 @@ nav li a:hover{
     background:var(--black-color);
 }
 
-
-
-
 /* -----------  END OF NAVBAR STYLING ------------ */
 
 
 
+/* -------VISION & MISSION STYLING ------ */
+
+.vision{
+    padding:100px 0;
+}
+
+
+.vision h1{
+    font-size:36px;
+    text-align:center;
+}
+
+
+.vision h1::after{
+    content:'';
+    width:120px;
+    height:4px;
+    display:block;
+    background:var(--gold-color);
+    margin:5px auto;
+}
+
+.vision-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    gap:30px;
+    padding:2% 8%;
+    margin-top:40px;
+}
+
+
+.vision-info{
+    background:var(--gold-color);
+    padding:20px;
+    color:#03073d;
+    text-align:center;
+}
+
+
+.vision-info img{
+    width:100%;
+}
+
+
+.vision-info:nth-child(2){
+    background: #ffe30c;
+}
+
+
+.vision-info h2{
+    padding:10px;
+}
+
+.vision-info p{
+    width:400px;
+    margin:auto;
+}
 
 
 
@@ -160,11 +214,7 @@ nav li a:hover{
 
 
 
-
-
-
-
-
+/* -------END OF VISION & MISSION STYLING ------ */
 
 
 
