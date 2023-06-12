@@ -82,6 +82,11 @@ header{
 }
 
 
+.navbar .fa{
+    display:none;
+}
+
+
 
 
 nav li{
