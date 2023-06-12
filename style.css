@@ -4,17 +4,238 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    border:0;
-    outline:0;
     text-decoration:none;
     list-style:none;
+    font-family:'Barlow',sans-serif;
 }
 
 /* ---- CSS VARIABLES ---- */
 
 :root{
-    --gold-color:#ffb300;
+    --gold-color:#fab20a;
     --white-color:#fff;
     --black-color:#000;
 }
 
+
+/* ----NAVBAR STYLING------ */
+
+
+
+header{
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    position: relative;
+}
+
+
+.showcase{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/img-11.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center ;
+    animation:slider 16s ease-in-out infinite;
+}
+
+
+@keyframes slider {
+    0%, 100%{   
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/img-11.jpg);
+    }
+
+
+    25%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/img-14.jpg);
+    }
+
+
+    50%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/image-48.png);
+    }
+
+    75%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/pic-10.jpg);
+    }
+
+    100%{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/pic-3.jpg);
+    }
+    
+}
+
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 8%;
+    height:90px;
+    
+}
+
+
+.navbar img{
+    width:150px;
+}
+
+
+
+
+nav li{
+    display:inline-block;
+    margin:10px 20px;
+}
+
+
+
+nav li a{
+   font-size:17px;
+   color:var(--black-color);
+   font-weight:600;
+   transition:.3s;
+}
+
+
+nav li a:hover{
+    color:var(--gold-color);
+}
+
+
+.welcome-section{
+    width:60%;
+    color:var(--white-color);
+    padding:2% 8%;
+    position:absolute;
+    top:30%;
+}
+
+.welcome-section h1{
+    font-size:70px;
+    line-height:73px;
+    margin-bottom:24px;
+}
+
+
+.welcome-section p{
+    line-height:28px;
+    font-size:17px;
+}
+
+.donate-btn{
+    padding:15px 40px;
+    background:var(--gold-color);
+    display:inline-block;
+    margin-top:25px;
+    color:var(--white-color);
+    border-radius:25px;
+    font-weight:700;
+    text-shadow:0px 0px 2px #000;
+    transition:background .3s;
+}
+
+.donate-btn:hover{
+    background:var(--black-color);
+}
+
+
+
+
+/* -----------  END OF NAVBAR STYLING ------------ */
+
+
+
+
+
+
+
+
+
+/* ------RESPONSIVENESS -------- */
+
+@media(max-width:600px){
+
+nav ul{
+    display:none;
+}
+
+.navbar{
+    margin:auto 30px;
+   
+}
+
+
+nav ul{
+    display:block;
+    margin-top:50px;
+}
+
+   .navbar  .fa-bars{
+        position:absolute;
+        right:10px;
+        top:10px;
+        color:var(--white-color);
+        font-size:30px;
+    }
+
+
+  .nav-links{
+       background:var(--primary-color);
+       height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        position:fixed;
+        text-align:left;
+        z-index:2;
+        transition:0.5s;
+        color:var(--white-color);
+        overflow:hidden;
+  }
+
+
+  nav li{
+    padding-top:10px;
+    display:block;
+    margin-top:20px;
+}
+
+
+nav li a{
+    padding:5px 0px;
+    font-weight:bold;
+}
+
+
+
+  .navbar .fa{
+    display:block;
+    color:var(--black-color);
+    margin:20px;
+    font-size:30px;
+    cursor:pointer;
+}
+
+
+.navbar img{
+    width:70px;
+    position:absolute;
+    top:10px;
+    left:30px;
+}
+
+
+.welcome-section{
+    width:100%;
+}
+
+.welcome-section h1{
+    font-size:30px;
+    line-height:36px;
+}
+
+
+
+}
