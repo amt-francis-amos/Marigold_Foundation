@@ -487,6 +487,7 @@ footer{
     padding:10px;
     text-align:center;
     border-radius:50%;
+    cursor: pointer;
 }
 
 .social-links i:hover{
