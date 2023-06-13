@@ -378,10 +378,34 @@ nav li a:hover{
   }
 
 
+  .gallery h1{
+    font-size:36px;
+    text-align:center;
+  }
+
+
+  .gallery h1::after{
+        content:'';
+        width:90px;
+        height:4px;
+        display:block;
+        background:var(--gold-color);
+        margin:5px auto;
+  }
+
+  .gallery p{
+    color:var(--black-color);
+    text-align:center;
+    margin-top:20px;
+  }
+
+
   .gallery-container{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     padding:2% 8%;
+    gap:5px;
+    margin-top:5%;
   }
 
 
