@@ -307,6 +307,9 @@ nav li a:hover{
       border-radius:20px;
   }
   
+
+
+  
   .about-col h1{
       margin-bottom:20px;
   }
@@ -353,6 +356,87 @@ nav li a:hover{
   
   /*----------- END OF ABOUT US PAGE---------*/
   
+
+
+
+/* -------GALLERY STYLING -------- */
+.sub-gallery{
+    height:50vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/gallery.jpg');
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+    color:#fff;
+    background-attachment:fixed;
+  }
+
+
+
+  .gallery{
+    padding:100px 0;
+  }
+
+
+  .gallery-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    padding:2% 8%;
+  }
+
+
+
+  figure {
+	overflow: hidden;
+	margin: 0 10px;
+}
+
+
+
+.image-info img {
+	width: 100%;
+    height:35vh;
+    object-fit:cover;
+}
+
+
+.image-info #zoom-In figure img {
+	transform: scale(1);
+	transition: 0.3s ease-in-out;
+}
+
+
+
+.image-info #zoom-In figure:hover img {
+	transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -567,7 +651,7 @@ nav li a:hover{
 
 
 
-.sub-header{
+.sub-header, .sub-gallery{
     min-height:30vh;
     background-size: contain;
 }
