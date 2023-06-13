@@ -211,9 +211,6 @@ nav li a:hover{
 
 /* -------END OF VISION & MISSION STYLING ------ */
 
-
-
-
 .sub-header{
     height:50vh;
     width:100%;
@@ -566,6 +563,12 @@ nav li a:hover{
 
 .sub-info h1::after, .sub-info h1::before{
     width:12px;
+}
+
+
+
+.sub-header{
+    min-height:100%;
 }
 
 
