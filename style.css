@@ -316,12 +316,14 @@ nav li a:hover{
       margin-bottom:20px;
   }
 
+
+
   
 .about-col h1::after{
     content:'';
     width:50px;
     height:5px;
-    background:var(--primary-color);
+    background:var(--gold-color);
     display:block;
     border-radius:6px;
     margin:5px 0;
@@ -450,7 +452,7 @@ footer{
 
 /* ------RESPONSIVENESS -------- */
 
-@media(max-width:600px){
+@media(max-width:768px){
 
 nav ul{
     display:none;
@@ -568,12 +570,6 @@ nav li a:hover{
     width:12px;
 }
 
-
-.sub-header{
-    background-size: cover;
-    height:auto; 
-    background-repeat:no-repeat;
-}
 
 
 
