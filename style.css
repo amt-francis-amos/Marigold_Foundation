@@ -567,4 +567,12 @@ nav li a:hover{
 }
 
 
+.sub-header{
+    background-size: cover;
+    height:auto; 
+    background-repeat:no-repeat;
+}
+
+
+
 }
