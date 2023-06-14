@@ -438,6 +438,7 @@ nav li a:hover{
 
 
 
+/* -------END OF GALLERY STYLING -------- */
 
 
 
@@ -682,6 +683,8 @@ nav li a:hover{
 }
 
 
-
+.footer-container{
+    text-align: center;
+}
 
 }
