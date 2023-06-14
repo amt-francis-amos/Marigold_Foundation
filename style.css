@@ -664,11 +664,18 @@ nav li a:hover{
     width:250px;
 }
 
+.sub-info{
+    width:57%;
+    margin:auto;
+    text-align:center;
+}
+
 
 
 .sub-info h1{
     font-size:25px;
 }
+
 
 
 .sub-info h1::after, .sub-info h1::before{
@@ -681,6 +688,8 @@ nav li a:hover{
     min-height:30vh;
     background-size: contain;
 }
+
+
 
 
 .footer-container{
