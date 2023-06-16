@@ -789,7 +789,7 @@ nav li a:hover{
 
 
 
-.sub-header, .sub-gallery{
+.sub-header, .sub-gallery,.sub-team{
     min-height:30vh;
     background-size: contain;
 }
@@ -799,6 +799,12 @@ nav li a:hover{
 
 .footer-container{
     text-align: center;
+}
+
+
+.sub-info h1{
+    text-align:center;
+    margin:auto;
 }
 
 }
