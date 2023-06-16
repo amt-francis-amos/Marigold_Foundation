@@ -736,6 +736,7 @@ transition:.0s;
 /* -----------EVENTS STYLING -------- */
 
 .events{
+    padding:50px 0;
     text-align:center;
 }
 
@@ -750,6 +751,15 @@ transition:.0s;
 }
 
 
+.events h3{
+    color:#ff5000;
+}
+
+
+.events h1{
+    font-size:30px;
+    margin-top:20px;
+}
 
 
 
