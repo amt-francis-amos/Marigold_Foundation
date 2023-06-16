@@ -828,6 +828,9 @@ transition:.0s;
     border-radius:6px;
     margin:10px auto;
  }
+
+
+
  
  
  .donate-container{
@@ -891,14 +894,14 @@ transition:.0s;
  
  
  form .donate-send{
-     display:inline-block;
      padding:17px 30px;
      background: #ff9500;
-     width:100%;
+     width:50%;
+     display:block;
+     margin:25px auto;
      color:#fff;
      font-size:18px;
      font-weight:700;
-     margin-top:30px;
      outline:none;
      border:none;
      text-align:center;
@@ -1158,7 +1161,9 @@ nav li a:hover{
     width:100%;
 }
 
-
+form .donate-send{
+    width:100%;
+}
 
 
 }
