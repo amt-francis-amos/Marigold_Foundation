@@ -411,6 +411,7 @@ nav li a:hover{
     text-align:center;
     padding:20px;
     border:2px solid #ccc;
+    border-radius:15px;
 }
 
 
@@ -747,11 +748,6 @@ nav li a:hover{
 .sub-info h1::after, .sub-info h1::before{
     width:12px;
 }
-
-
-
-
-
 
 
 .footer-container{
