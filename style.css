@@ -375,7 +375,21 @@ nav li a:hover{
 }
 
 
+.team h1{
+    font-size:36px;
+    text-align:center;
+}
 
+
+.team h1::after{
+    content:'';
+    width:100px;
+    height:4px;
+    background:var(--gold-color);
+    display:block;
+    margin:5px auto;
+
+}
 
 
 
