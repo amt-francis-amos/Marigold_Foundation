@@ -542,7 +542,7 @@ nav li a:hover{
 }
 
 
-input{
+.gallery input{
     display:none;
 }
 
@@ -572,7 +572,7 @@ input{
     color:#fff;
 }
 
-label{
+.gallery label{
     display:inline-block;
     height:100%;
     padding:0 5px;
@@ -584,8 +584,8 @@ label{
     transition:color .5s;
 }
 
-label:hover{
-    color:black;
+.gallery label:hover{
+    color:var(--gold-color);
 }
 
 .photo-gallery{
@@ -787,80 +787,133 @@ transition:.0s;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------END OF EVENTS STYLING -------- */
 
 
 
 
 
+/* ----- DONATE STYLING ------ */
+
+.donate{
+    padding:100px 0;
+ }
+ 
+ .sub-donate{
+    height:50vh;
+    width:100%;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/donate.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    color:#fff;
+  }
 
 
+ 
+ 
+ .donate h1{
+     text-align:center;
+     font-size:36px;
+ }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ .donate h1::after{
+    content:'';
+    width:120px;
+    height:5px;
+    background:var(--gold-color);
+    display:block;
+    border-radius:6px;
+    margin:10px auto;
+ }
+ 
+ 
+ .donate-container{
+  display:grid;
+   grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+   padding:2% 8%;
+    gap:1rem;
+    margin-top:80px;
+ }
+ 
+ 
+ .form-group{
+    width:50%;
+    background:#007bff;
+    box-shadow:0px 0px 8px rgba(55, 27, 4, 0.2);
+    padding:30px;
+    border-radius:20px;
+    margin:auto;
+ }
+ 
+ label{
+     display:block;
+     margin-left:5px;
+     color:#fff;
+     font-weight:700;
+ }
+ 
+ 
+ .form-info input, select{
+    width:100%;
+    padding:15px;
+    margin:10px 0; 
+    background:#fff;
+    outline:none;
+    border:none;
+    font-size:17px;
+    color:#007bff;
+    
+ }
+ 
+ 
+ option{
+     background:#fff;
+     color:#000;
+     padding:0 5px;
+ }
+ 
+ 
+ ::placeholder{
+     color:#007bff;
+     font-size:17px;
+ }
+ 
+ 
+ .form-info select{
+     width:100%;
+     padding:6px;
+     margin:15px 0;
+     border: 10px solid #fff;
+ }
+ 
+ 
+ form .donate-send{
+     display:inline-block;
+     padding:17px 30px;
+     background: #ff9500;
+     width:100%;
+     color:#fff;
+     font-size:18px;
+     font-weight:700;
+     margin-top:30px;
+     outline:none;
+     border:none;
+     text-align:center;
+     border-radius:25px;
+     transition:background .3s;
+ }
+ 
+ 
+ form .donate-send:hover{
+     background:#e1ba2a;
+ }
+ 
+ 
+ 
+ 
 
 
 
@@ -1101,7 +1154,9 @@ nav li a:hover{
     margin:20px auto;
 }
 
-
+.form-group{
+    width:100%;
+}
 
 
 
