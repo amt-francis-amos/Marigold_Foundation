@@ -541,6 +541,58 @@ nav li a:hover{
 	transform: scale(1.5);
 }
 
+
+input{
+    display:none;
+}
+
+
+.container{
+    width:100%;
+    text-align:center;
+    margin-top:60px;
+}
+
+.top-content{
+    background:rgb(243,243,243);
+    width:90%;
+    margin:0 auto 20px auto;
+    height:60px;
+    display:flex;
+    align-items:center;
+    border-radius:5px;
+    box-shadow:3px 3px 5px lightgray;
+}
+
+.top-content h3{
+    height:100%;
+    background:lightgray;
+    line-height:60px;
+    padding:0 50px;
+    color:#fff;
+}
+
+label{
+    display:inline-block;
+    height:100%;
+    padding:0 5px;
+    margin:0 20px;
+    line-height:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------END OF GALLERY STYLING -------- */
 
 
