@@ -442,13 +442,25 @@ nav li a:hover{
     color:var(--white-color);
     width:40px;
     height:40px;
-    background:var(--gold-color);
+    background:#656464;
     border-radius:50%;
     font-size:20px;
     text-align:center;
     padding:10px;
     margin:15px 5px;
+    transition:.3s;
 }
+
+.social-icons i:hover{
+    background:var(--gold-color)
+}
+
+
+
+
+
+
+
 
 
 /* -----------END OF  OUR TEAM --------- */
