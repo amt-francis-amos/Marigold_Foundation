@@ -217,7 +217,7 @@ nav li a:hover{
 
 /* -------END OF VISION & MISSION STYLING ------ */
 
-.sub-header{
+.sub-about{
     height:50vh;
     width:100%;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/about-img.jpg');
@@ -240,7 +240,7 @@ nav li a:hover{
        position:absolute;
        top:25%;
        left:50%;
-       transform:translate(-50%, -50%);;
+       transform:translate(-50%, -50%);
   }
 
 
@@ -372,7 +372,6 @@ nav li a:hover{
     height:50vh;
     width:100%;
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/team.png');
-    background-position:center bottom;
     background-position:center;
     background-size:cover;
     text-align:center;
@@ -451,24 +450,7 @@ nav li a:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------END OF  OUR TEAM --------- */
-
-
-
 
 
 
@@ -482,7 +464,6 @@ nav li a:hover{
     background-size:cover;
     text-align:center;
     color:#fff;
-    background-attachment:fixed;
   }
 
 
@@ -549,38 +530,7 @@ nav li a:hover{
 	transform: scale(1.5);
 }
 
-
-
-
-
-
 /* -------END OF GALLERY STYLING -------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -800,11 +750,6 @@ nav li a:hover{
 
 
 
-.sub-header, .sub-gallery,.sub-team{
-    min-height:30vh;
-    background-size: contain;
- 
-}
 
 
 
