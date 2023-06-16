@@ -422,7 +422,15 @@ nav li a:hover{
     object-fit:cover;
     border-radius:50%;
     border:5px solid #d1d1d1;
+    transform: scale(1);
+	transition: 0.3s ease-in-out;
 
+}
+
+
+
+.team-info:hover img{
+    
 }
 
 
