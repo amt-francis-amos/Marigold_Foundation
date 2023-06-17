@@ -39,6 +39,7 @@ header{
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center ;
+    background-attachment: fixed;
     animation:slider 16s ease-in-out infinite;
 }
 
@@ -63,7 +64,7 @@ header{
     }
 
     100%{
-        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/image-10.png);
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/image-84.png);
     }
     
 }
