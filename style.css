@@ -985,44 +985,7 @@ transition:.0s;
     
    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  /* -------- END OF CONTACT STYLING-------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ------ FOOTER STYLING ------- */
 
@@ -1123,8 +1086,6 @@ nav ul{
     width:100%;
    
 }
-
-
 
 
 nav ul{
@@ -1269,5 +1230,10 @@ form .donate-send{
     width:100%;
 }
 
+
+.contact-info p{
+    font-size:15px;
+
+}
 
 }
