@@ -816,8 +816,8 @@ transition:.0s;
 }
 
 .swiper-slide img{
-    width:50%;
-    height:70vh;
+    width:30%;
+    height:50vh;
     
     
 }
@@ -825,7 +825,7 @@ transition:.0s;
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
    color:red;
-    margin:0 180px;
+    margin:0 400px;
 }
 
 
@@ -1320,10 +1320,17 @@ form .donate-send{
 
 .swiper .swiper-button-prev, .swiper .swiper-button-next{
     color:red;
-     margin:0 10px;
+     margin:50px 10px;
+ }
+
+ .swiper-slide p{
+    width:80%;
  }
 
 
+ .swiper-slide .para{
+    font-size:12px;
+ }
 
 
 }
