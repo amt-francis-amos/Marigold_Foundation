@@ -811,32 +811,31 @@ transition:.0s;
 
 
 .swiper{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
-    padding:2% 8%;
-    
+   width:100%;
+   height: fit-content;
 }
 
 .swiper-slide img{
-    width:30%;
-    height:50vh;
+    width:40%;
+    height:60vh;
     object-fit:cover;
     border:4px solid #ff5000;
     
 }
 
 
-.swiper .swiper-button-prev, .swiper .swiper-button-next{
+/* .swiper .swiper-button-prev, .swiper .swiper-button-next{
    color:red;
     margin:0 400px;
 }
-
+ */
 
 
 .swiper .swiper-pagination-bullet-active{
     background:red;
-  
-}
+ 
+ 
+}   
 
 
 
