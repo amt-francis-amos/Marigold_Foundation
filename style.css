@@ -789,13 +789,13 @@ transition:.0s;
     margin-top:60px;
 }
 
-
+/* 
 .events-info p{
     font-size:17px;
     font-weight:700;
     color:#03073d;
     margin-bottom:20px;
-}
+} */
 
 
 
@@ -807,16 +807,31 @@ transition:.0s;
 
 
 .swiper{
-    width:80%;
-    height:fit-content;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    padding:2% 8%;
+    
 }
 
 .swiper-slide img{
     width:50%;
-    height:60vh;
-    object-fit:cover;
+    height:70vh;
+    
+    
 }
 
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+   color:red;
+    margin:0 180px;
+}
+
+
+
+.swiper .swiper-pagination-bullet-active{
+    background:red;
+  
+}
 
 
 
@@ -1292,5 +1307,21 @@ form .donate-send{
     font-size:15px;
 
 }
+
+
+.swiper-wrapper img{
+     width:80%;
+     height:45vh;
+}
+
+
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color:red;
+     margin:0 10px;
+ }
+
+
+
 
 }
