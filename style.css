@@ -818,7 +818,8 @@ transition:.0s;
 .swiper-slide img{
     width:30%;
     height:50vh;
-    
+    object-fit:cover;
+    border:4px solid #ff5000;
     
 }
 
