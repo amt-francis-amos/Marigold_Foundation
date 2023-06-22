@@ -14,4 +14,3 @@ function closeMenu(){
    console.log('clicked me')
 }
 
-

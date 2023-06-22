@@ -776,11 +776,16 @@ transition:.0s;
     color:#03073d;
 }
 
-.events-container{
+/* .events-container{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     grid-gap:20px;
     padding:2% 8%;
+    margin-top:60px;
+} */
+
+
+.swiper-wrapper{
     margin-top:60px;
 }
 
@@ -794,11 +799,49 @@ transition:.0s;
 
 
 
-.events-info img{
+/* .events-info img{
     width:340px;
     height:30vh;
     object-fit:cover;
+} */
+
+
+.swiper{
+    width:80%;
+    height:fit-content;
 }
+
+.swiper-slide img{
+    width:50%;
+    height:60vh;
+    object-fit:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* -----------END OF EVENTS STYLING -------- */

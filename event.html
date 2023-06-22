@@ -15,6 +15,11 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
     <link rel="shortcut icon" x-image="image" href="images/favicon.png" />
 
     <script
@@ -33,13 +38,30 @@
       </div>
     </div>
 
+    <section class="events">
+      <h3>News and Events</h3>
+      <h1>You can check out our Events</h1>
 
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="images/menstrual hygiene new 2.jpg" />
+          </div>
+          <div class="swiper-slide"><img src="images/menstrual.jfif" /></div>
+          <div class="swiper-slide"><img src="images/mentrual2.jfif" /></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
-<section class="events">
-    <h3>News and Events</h3>
-    <h1>You can check out our Events</h1>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
 
-    <div class="events-container">
+      <!-- <div class="events-container">
         <div class="events-info">
             <p>7,000 sanitary pads were donated to 5,000 girls in 5 Districts across the Central Region during the 2023 World Menstrual Hygiene Day on Monday, 29th May, 2023.
             </p>
@@ -67,14 +89,10 @@
         
     </div>
         
-  
-        
-</section>
+   -->
+    </section>
 
-
-    
-
-  <!-- ----FOOTER SECTION ---------- -->
+    <!-- ----FOOTER SECTION ---------- -->
 
     <footer>
       <div class="footer-container">
@@ -117,6 +135,29 @@
 
     <!-- ----END OF FOOTER SECTION ---------- -->
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+
+        autoplay:{
+           delay:3000,
+           disableOnInteraction:false,
+        },
+
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
   </body>
 </html>
