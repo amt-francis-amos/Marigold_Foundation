@@ -789,7 +789,11 @@ transition:.0s;
 
 
 
-
+hr{
+    width:80%;
+    border:2px solid #fab20a;
+    margin:auto;
+}
 
 
  .events-container{
@@ -803,9 +807,6 @@ transition:.0s;
 
 
 
-.swiper-wrapper{
-    margin-top:60px;
-}
 
 
 .events  p{
@@ -819,7 +820,7 @@ transition:.0s;
 
 .events-info img{
     width:300px;
-    height:30vh;
+    height:45vh;
     object-fit:cover;
 }
 
