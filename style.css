@@ -791,6 +791,8 @@ transition:.0s;
 
 
 .events  p{
+    width:60%;
+    margin:auto;
     font-size:17px;
     font-weight:700;
     color:#03073d;
