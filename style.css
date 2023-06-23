@@ -128,19 +128,20 @@ nav li a:hover{
 }
 
 .welcome-section h1{
-    font-size:70px;
+    font-size:62px;
     line-height:73px;
     margin-bottom:24px;
 }
 
 
 .welcome-section p{
+    width:100%;
     line-height:28px;
     font-size:17px;
 }
 
 .donate-btn{
-    padding:15px 40px;
+    padding:15px 30px;
     background:var(--gold-color);
     display:inline-block;
     margin-top:25px;
