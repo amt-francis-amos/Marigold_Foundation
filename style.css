@@ -826,31 +826,6 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------END OF EVENTS STYLING -------- */
 
 
@@ -1065,6 +1040,11 @@ footer{
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     gap:20px;
     padding:2% 8%;
+}
+
+
+.footer-info{
+    width:100%;
 }
 
 
