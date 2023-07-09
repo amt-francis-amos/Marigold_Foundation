@@ -1022,6 +1022,22 @@ hr{
     
    }
 
+
+   .contact-info a{
+    font-size:1.2rem;
+    font-weight:700;
+    color:#ff5000;
+    transition:.3s;
+   }
+
+   .contact-info a:hover{
+      color:#fab20a;
+   }
+
+
+
+
+
  /* -------- END OF CONTACT STYLING-------- */
 
 /* ------ FOOTER STYLING ------- */
