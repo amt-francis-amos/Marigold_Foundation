@@ -21,11 +21,6 @@ function closeMenu(){
 
 
 
-
-
-
-
-
 // SLIDER CODE----------------------------------------
 const myslide = document.querySelectorAll('.myslide'),
 	  dot = document.querySelectorAll('.dot');
