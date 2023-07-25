@@ -19,6 +19,13 @@ function closeMenu(){
 
 
 
+
+
+
+
+
+
+
 // SLIDER CODE----------------------------------------
 const myslide = document.querySelectorAll('.myslide'),
 	  dot = document.querySelectorAll('.dot');
@@ -67,7 +74,6 @@ function slidefun(n) {
 
 
 
-
-
-
 // END OF SLIDER CODE--------------------------------
+
+
