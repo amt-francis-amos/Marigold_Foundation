@@ -554,7 +554,7 @@ width: 100%;
 .sub-gallery{
     height:50vh;
     width:100%;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('images/gallery.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/gallery.jpg');
     background-position:center;
     background-size:cover;
     text-align:center;
