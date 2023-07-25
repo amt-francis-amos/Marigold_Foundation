@@ -1379,6 +1379,17 @@ form .donate-send{
   }
 
 
+
+  .myslide .txt{
+       top:40%;
+  }
+
+
+  .myslide .txt h1{
+    font-size:30px;
+  }
+
+
   .dotsbox {
     position: absolute;
     left: 50%;
