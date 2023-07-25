@@ -1154,6 +1154,11 @@ footer{
 
 /* ------END OF FOOTER SECTION -------- */
 
+/* For screens larger than 768px */
+
+  /* For screens larger than 1024px */
+  
+
 
 
 /* ------RESPONSIVENESS -------- */
@@ -1354,5 +1359,30 @@ form .donate-send{
    }
 
 
+   .myslide {
+    height: 80vh; /* Reduce the height for larger screens */
+  }
+
+  .myslide img {
+    height: 80vh; /* Adjust the image height for larger screens */
+  }
+
+
+  .dotsbox {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    display: flex; /* Display the dots in a row */
+    justify-content: center; /* Center the dots horizontally */
+    align-items: center; /* Center the dots vertically */
+  }
+
+  .dot {
+    margin: 0 5px; /* Adjust the margin between dots */
+  }
+
 
 }
+
+
