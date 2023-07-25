@@ -84,9 +84,7 @@ header{
 
 
 .navbar a img{
-    width:70px;
-    height:70px;
-    border-radius:50%;
+   width:200px;
 }
 
 
@@ -1072,9 +1070,7 @@ footer{
 }
 
 .footer-info img{
-    width:90px;
-    height:90px;
-    border-radius:50%;
+   width:180px;
 }
 
 
@@ -1090,11 +1086,12 @@ footer{
     text-align:center;
     border-radius:50%;
     cursor: pointer;
+    transition:all .3s;
 }
 
 .social-links i:hover{
     background:var(--gold-color);
-    color:#ffe30c;
+    color:#fffffb;
 }
 
 
@@ -1203,9 +1200,11 @@ nav li a:hover{
 }
 
 
+
+ 
+
 .navbar a img{
-    width:60px;
-    height:60px;
+    width:150px;
     position:absolute;
     top:15px;
     left:30px;
