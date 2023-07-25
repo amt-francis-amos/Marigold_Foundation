@@ -98,6 +98,8 @@ nav li a:hover{
 	height: 655px;
 	display: none;
 	overflow: hidden;
+    position: relative;
+    
 }
 
 
@@ -105,10 +107,44 @@ nav li a:hover{
     width:100%;
     height:100vh;
     object-fit:cover;
-   
-    
+    z-index:1;
+  
 }
 
+
+
+.myslide .txt{
+    width:100%;
+    top:10%;
+    position:absolute;
+    margin-top:20%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    text-align:center;
+}
+
+
+
+.myslide .txt h1{
+    color:#fff;
+    font-size:48px;
+    text-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+
+.myslide p{
+    font-size:20px;
+}
+
+
+.donate-btn{
+    background:#fab20a;
+    padding:13px 30px;
+    color:#fff;
+    display: inline-block;
+    margin-top:10px;
+    border-radius:10px;
+}
 
 
 
@@ -144,10 +180,6 @@ nav li a:hover{
 }
 
 
-.txt{
-
-}
-
 
 
 
@@ -161,13 +193,15 @@ nav li a:hover{
 	margin: 0 10px;
 	cursor: pointer;
 }
-/* /2 */
+
 
 /* javascript */
 .active, .dot:hover{
 	border-color: #00a7ff; /* blue */
 }
-/* /javascript */
+
+
+
 
 /* muslide add fade */
 .fade {
@@ -209,7 +243,7 @@ nav li a:hover{
     grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
     gap:30px;
     padding:2% 8%;
-    margin-top:40px;
+    margin-top:20px;
 }
 
 
@@ -224,8 +258,6 @@ nav li a:hover{
 .vision-info img{
     width:100%;
 }
-
-
 
 
 .vision-info h2{
@@ -1241,30 +1273,6 @@ nav li a:hover{
     top:15px;
     left:30px;
 }
-
-
-.showcase{
-    height:79vh;
-}
-
-
-.welcome-section{
-    width:100%;
-    top:25%;
-    text-align:center;
-}
-
-.welcome-section h1{
-    font-size:27px;
-    line-height:36px;
-}
-
-
-.welcome-section p{
-    font-size:16px;
-    line-height:20px;
-}
-
 
 
 
