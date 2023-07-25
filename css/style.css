@@ -88,7 +88,7 @@ nav li a:hover{
 .slider{
 	position: relative;
 	width: 100%;
-	background: #2c3e50; /* darckblue */
+	background: #2c3e50; 
 }
 
 
@@ -1256,7 +1256,7 @@ nav ul{
    .navbar  .fa-bars{
         position:absolute;
         right:10px;
-        top:5px;
+        top:1px;
         color:var(--white-color);
         font-size:30px;
     }
@@ -1306,12 +1306,11 @@ nav li a:hover{
 
 
 
- 
 
 .navbar a img{
     width:140px;
     position:absolute;
-    top:15px;
+    top:20px;
     left:30px;
 }
 

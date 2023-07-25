@@ -1,25 +1,3 @@
-// ---- MENU BAR ------
-
-
-let show = document.getElementById("nav-links")
-
-  
-function showMenu(){
-   show.style.right = "0";
-   console.log('clicked')
-}
-
-function closeMenu(){
-   show.style.right = "-200px";
-   console.log('clicked me')
-}
-
-
-
-
-
-
-
 
 // SLIDER CODE----------------------------------------
 const myslide = document.querySelectorAll('.myslide'),
@@ -27,7 +5,7 @@ const myslide = document.querySelectorAll('.myslide'),
 let counter = 1;
 slidefun(counter);
 
-let timer = setInterval(autoSlide, 8000);
+let timer = setInterval(autoSlide, 5000);
 function autoSlide() {
 	counter += 1;
 	slidefun(counter);
@@ -70,5 +48,50 @@ function slidefun(n) {
 
 
 // END OF SLIDER CODE--------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ---- MENU BAR ------
+
+
+let show = document.getElementById("nav-links")
+
+  
+function showMenu(){
+   show.style.right = "0";
+   console.log('clicked')
+}
+
+function closeMenu(){
+   show.style.right = "-200px";
+   console.log('clicked me')
+}
+
+
+
+
+
+
 
 
