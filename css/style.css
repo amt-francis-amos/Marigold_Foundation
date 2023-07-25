@@ -40,7 +40,7 @@ header{
     align-items:center;
     justify-content:space-between;
     padding:0 8%;
-    height:80px;
+    height:78px;
     width:100%;
     position:fixed;
     top:0;
@@ -95,7 +95,7 @@ nav li a:hover{
 
 
 .myslide{
-	height: 655px;
+	height: 100vh;
 	display: none;
 	overflow: hidden;
     position: relative;
@@ -106,9 +106,8 @@ nav li a:hover{
 .myslide img{
     width:100%;
     height:100vh;
-    background-size:cover;
+    object-fit:cover;
     background-position:center;
-    object-fit:fill;
   
 }
 
@@ -186,10 +185,6 @@ nav li a:hover{
 	bottom: 20px;
 	cursor: pointer;
 }
-
-
-
-
 
 
 .dot{
