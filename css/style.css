@@ -374,8 +374,6 @@ width: 100%;
 
 
 
-
-
   
   .about-container{
        display:grid;
@@ -409,9 +407,6 @@ width: 100%;
     margin:5px 0;
 
 }
-
-
-
 
 
   .about-col p{
@@ -893,12 +888,18 @@ hr{
     margin-bottom:20px;
 } 
 
-
-
 .events-info img{
     width:300px;
-    height:45vh;
+    height:40vh;
     object-fit:cover;
+    margin:10px;
+    border-radius:20px;
+    transition: transform 0.3s ease; 
+}
+
+
+.events-info img:hover{
+    transform: scale(1.1);
 }
 
 
