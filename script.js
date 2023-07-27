@@ -57,21 +57,6 @@ function slidefun(n) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ---- MENU BAR ------
 
 
