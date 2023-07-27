@@ -88,7 +88,7 @@ nav li a:hover{
 .slider{
 	position: relative;
 	width: 100%;
-    height:75vh;
+    height:100vh;
 	background: #2c3e50; 
 }
 
@@ -96,9 +96,9 @@ nav li a:hover{
 
 .myslide{
   width:100%;
-  height:100%;
+  height:100vh;
   object-fit:cover;
-  position:relative;
+
     
 }
 
@@ -109,7 +109,7 @@ nav li a:hover{
     top: 0;
     left: 0;
     width: 100%;
-    height: 75vh;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.3); 
 }
 
@@ -118,10 +118,9 @@ nav li a:hover{
 
 .myslide img{
     width:100%;
-    height:75vh;
- 
-    
-  
+    height:100vh;
+    background-size: cover;
+    background-position:center;
 }
 
 
@@ -1340,6 +1339,12 @@ nav li a:hover{
 }
 
 
+.vision{
+    padding:0;
+    margin-top: 40px;
+}
+
+
 
 .vision-bg{
     width:100%;
@@ -1409,46 +1414,31 @@ form .donate-send{
 }
 
 
-.swiper-wrapper img{
-     width:80%;
-     height:45vh;
-     object-fit:cover;
-}
-
-
-
-.swiper .swiper-button-prev, .swiper .swiper-button-next{
-    color:red;
-     margin:50px 10px;
- }
-
-
-
- .swiper-slide p{
-    width:80%;
- }
-
-
- .swiper-slide .para{
-    font-size:12px;
- }
-
-
-
  .contact-info a{
     font-size:1rem;
    
    }
 
 
+
+
+
+   .slider{
+	width: 100%;
+    height:80vh;
+	background: #2c3e50; 
+}
+
+
+
    .myslide {
     width:100%;
-    height: 80vh;
+    height: 100vh;
   }
 
   .myslide img {
     width:100%;
-    height:75vh; 
+    height:90vh; 
   }
 
 
@@ -1463,6 +1453,13 @@ form .donate-send{
     margin:auto;
     font-size:24px;
   }
+
+
+  .myslide::before{
+    width:100%;
+    height:90vh;
+  }
+
 
 
   .donate-btn{
